@@ -44,6 +44,7 @@ p {
 
 .avatar-text {
     width: 360px;
+    height: 141px;
 }
 
 
@@ -69,7 +70,11 @@ h4 {
 .third-right-span {
     padding: 1px;
     cursor: pointer;
-    
+}
+
+
+.third-text {
+    margin: auto;
 }
 
 
@@ -85,7 +90,6 @@ h4 {
 .first-text, .second-text {
     margin-top: 20px;
     margin-bottom: 20px;
-
 }
 
 
@@ -103,6 +107,7 @@ h4 {
     width: 380px;
     border-top: 1px solid #eeecec;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 
@@ -110,6 +115,7 @@ h4 {
     width: 380px;
     border-top: 1px solid #eeecec;
     margin-top: 15px;
+    margin-bottom: 13px;
 }
 
 
@@ -179,7 +185,7 @@ h4 {
 
 .second-right {
     width: 360px;
-    height: 326px;
+    height: 322px;
     margin-top: 10px;
     margin-left: 10px;
 }
@@ -191,6 +197,7 @@ h4 {
     background-color: white;
     width: 360px;
     height: 168px;
+    margin: auto;
 }
 
 
@@ -202,6 +209,9 @@ h4 {
     line-height: 30px;
 }
 
+.workshop, .gondol, .skie{
+    border-bottom: 2px solid #eeecec;
+}
 
 .workshop-img, .skie-img, .gondol-img, .mountain-img{
     width: 40px;
@@ -218,20 +228,22 @@ h4 {
 
 .comment-span1, .comment-span2, .unknown {
     background-color: black;
-    color: white;
+    color: rgb(196, 194, 194);
     padding: 2px 6px;
     line-height: 30px;
 }
 
 
 .comment-span1 {
-    padding: 1px 6px;
+    padding: 0px 5px 1px;
+    font-size: 15px;
 }
 
 
 .comment-span2 {
-    padding: 2px 8px 5px 9px;
+    padding: 0px 6px 1px 6px;
     border-radius: 50%;
+    font-size: 15px;
 }
   
 
@@ -288,7 +300,7 @@ h4 {
 }
 
 
-.first-right, .second-right, .first-left, .second-right, .third-right {
+.first-right, .second-right, .first-left, .third-right, .second-left {
     box-shadow: 1px 1px 11px #ccc;
 }
 
@@ -301,12 +313,12 @@ h4 {
 
 
 .second-right-span-title{
-    font-size: 20px;
+    font-size: 16px;
     
 }
 
 .second-right-span-text{
-    font-size: 15px;
+    font-size: 13px;
     
 }
 
@@ -314,4 +326,9 @@ h4 {
 .workshop-img, .second-right-span-title, .gondol-img, .skie-img, .mountain-img {
     vertical-align: middle;
     float: left;
+}
+
+
+.read-more-arrow {
+    text-align: center;
 }
